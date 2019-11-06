@@ -31,3 +31,19 @@ function validar(f) { /*Funcion q valida campos del formulario de reclutamiento*
     alert(msg);
   return ok;
 }
+
+function acceso(){
+if (document.formLogin.password.value=='12345' && document.formLogin.login.value=='USUARIO'){ 
+        alert("Gracias por volver :)");
+        document.formLogin.submit();
+        redireccionar();
+       
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+
+function redireccionar(){
+  window.location.href="bienvenido.html";
+}
