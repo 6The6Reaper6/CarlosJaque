@@ -1,0 +1,96 @@
+html{
+	font-family: 'Yeon Sung', cursive;
+	color: white;
+}
+
+header div{
+	text-align: center;
+	background-color:rgb(2, 5, 77,0.5);
+}
+
+header table{
+	align-content: center;
+	align-items: center;
+}
+
+body div{
+	text-align: center;
+}
+a{
+	color: white;
+    text-decoration: none;
+    opacity: none;
+}
+p{
+	color: white;
+    text-decoration: none;
+    font-size: 40;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fa2f2f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer div{
+	text-align: center;
+	background-color:rgb(2, 5, 77,0.5);
+}
+
+label {
+
+	color: white;
+    display: inline-block;
+    width: 150px;
+}
+
+input {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 10px;
+}
